@@ -1,0 +1,1 @@
+".s": "make $fileNameWithoutExt && send $dir$fileNameWithoutExt.img"

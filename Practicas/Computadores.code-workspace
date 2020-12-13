@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "Ejercicios"
+		},
+		{
+			"path": "Practica Final"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Users/miguelangelruiz/.platformio/penv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+		}
+	}
+}

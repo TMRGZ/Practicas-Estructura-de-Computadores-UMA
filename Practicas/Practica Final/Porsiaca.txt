@@ -1,0 +1,220 @@
+pulsador:   .word   0
+cuenta:     .word   1
+
+refluz1:    .word 0       
+luces1:     .word RI + RD
+            .word RI + RD + VI + VD
+            .word RI + RD + VI
+            .word RI + RD + VI + VD + NI + ND
+            .word RI + RD + VI + VD + NI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI
+            .word RI + RD + VI + VD + NI + ND
+            .word RI + RD + VI + VD + NI
+            .word RI + RD + VI + VD 
+            .word RI + RD + VI
+            .word RI + RD + VI + VD + NI + ND
+            .word RI + RD + VI + VD + NI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI + ND
+            .word RI + RD + VI + VD + NI
+            .word RI 
+            .word RI + RD 
+            .word RI + RD + VI
+            .word RI + RD + VI + VI
+            .word RI + RD + VI  @ POSIBLES SILENCIO DESPUES DE ESO
+            .word RI + RD
+            .word RI + RD + VI + VD @SOL TERCERA LINEA
+            .word RI + RD + VI
+            .word RI + RD + VI + VD 
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI
+            .word RI + RD + VI + VD
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI
+            .word AP
+            .word AP
+            .word RI + RD	@RE LARGO
+            .word RI + RD + VI + VD
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD
+            .word RI + RD
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD 
+            .word RI + RD + VI 	@FIN PRIMERA LINEA
+            .word RI + RD + VI + VD 
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI
+            .word RI + RD + VI + VD 
+            .word RI + RD + VI
+            .word RI + RD
+            .word RI + RD + VI + VD + NI
+
+refluz2:    .word 0
+luces2:     .word RI
+            .word RI + RD
+            .word RI + RD + NI
+            .word RI + RD + NI + ND                                              
+			.word RI + RD + NI + ND + VI
+			.word RI + RD + NI + ND + VI + VD
+			.word RD + NI + ND + VI + VD
+			.word NI + ND + VI + VD
+			.word ND + VI + VD
+            .word VI + VD
+			.word VD
+			.word NI + VD     
+			.word ND + NI + VD                                      
+			.word NI + ND + NI + VD
+			.word RD + NI + ND + NI + VD
+            .word RI + RD + NI + ND + NI + VD
+			.word RI + RD + NI + ND + NI
+			.word RI + RD + NI + ND
+			.word RI + RD + NI
+			.word RI + RD
+			.word RI
+			.word RI + VD
+			.word RI + RD + VD
+			.word RI + RD + VI + VD                                              
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + VI + VD
+            .word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + VD
+			.word RI + RD + ND + VI
+			.word RI + RD + VD
+			.word RI + VD
+			.word RI
+            .word RI + RD
+            .word RI + RD + NI
+            .word RI + RD + NI + ND                                              
+			.word RI + RD + NI + ND + VI
+			.word RI + RD + NI + ND + VI + VD
+			.word RD + NI + ND + VI + VD
+			.word NI + ND + VI + VD
+			.word ND + VI + VD
+            .word VI + VD
+			.word VD 
+			.word VI + VD     
+			.word ND + VI + VD                                       
+			.word NI + ND + VI + VD
+			.word RD + NI + ND + VI + VD
+            .word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND + VI
+			.word RI + RD + NI + ND
+			.word RI + RD + NI
+			.word RI + RD
+			.word RI
+
+bitson:     .word 0
+sonidos:	.word RE
+            .word MI
+            .word FA
+            .word SIB   
+            .word LA
+            .word RE
+            .word DOH
+            .word REH
+            .word LA
+            .word SOL   @ TERCERA LINEA
+            .word FA
+            .word SIB  
+            .word LA
+            .word RE
+            .word DOH
+            .word REH
+            .word RE
+            .word DO
+            .word MI
+            .word FA
+            .word MI
+            .word DO
+            .word SOL
+            .word MI    @ Segunda linea
+            .word SOL
+            .word FA
+            .word RE
+            .word LA
+            .word SOL
+            .word FA
+            .word RE
+            .word LA
+            .word 20
+            .word 20
+            .word RE    @ Posible repeticion posible silencio arriba
+            .word MI
+            .word FA
+            .word DO
+            .word SOL
+            .word MI
+            .word FA
+			.word DO
+			.word SOL
+			.word MI    @ Primera linea
+			.word SOL
+			.word FA
+            .word RE
+			.word LA
+			.word SOL
+			.word FA
+			.word RE
+			.word LA
+            
+
+refret:     .word 0
+retardos:	.word BL + BL
+			.word NG
+            .word NG
+			.word BL
+			.word BL
+			.word BL
+			.word BL
+			.word BL
+            .word BL + BL
+			.word NG                @ TERCERA LINEA
+			.word NG
+			.word BL
+			.word BL
+			.word BL
+            .word BL
+			.word BL
+			.word BL + BL
+			.word COR
+			.word NG
+			.word COR
+            .word NG
+			.word NG
+			.word NG
+			.word BL + BL           @ SEGUNDA LINEA
+			.word CORP
+			.word CORP
+            .word NG
+			.word NG
+			.word CORP
+			.word CORP
+			.word NG
+			.word NG
+            .word COR
+            .word CORP
+            .word BL + NG + CORP    @ POSIBLE REPETICION Y SILENC
+			.word CORP
+			.word CORP
+			.word NG
+			.word NG
+			.word CORP
+            .word CORP
+			.word NG
+			.word NG     
+			.word BL + BL           @ PRIMERA LINEA
+			.word CORP
+			.word CORP
+            .word NG
+			.word NG
+			.word CORP
+			.word CORP
+			.word NG
+			.word NG
+            

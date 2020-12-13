@@ -1,0 +1,157 @@
+luces1:     .word AP
+			.word AP
+			.word RI + RD + NI + ND + VI + VD    @ DOH A LA VEZ
+			.word AP
+			.word RI + RD + NI + ND + VI
+			.word RI + RD + NI + ND
+			.word RI + RD + NI
+			.word RI + RD
+			.word RI
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + VI + VD
+			.word RI + RD + VD
+			.word RI + VD
+			.word RD + VI
+			.word NI + ND @
+			.word RI + NI + ND + VD
+			.word AP
+			.word RI + VD
+			.word NI + ND
+			.word RD + NI + ND + VI
+			.word AP
+			.word RD + NI + ND + VI
+			.word RD + VI	@
+			.word RI + RD + VI + VD
+			.word AP
+			.word NI + ND
+			.word RI + RD + VI + VD
+			.word RI + VD
+			.word AP
+			.word NI + ND
+			.word RD + ND + VD @ FIN QUINTA TODO OK
+            .word RD
+            .word AP
+            .word RD + ND + VD
+            .word RD + ND
+			.word RD     
+			.word AP
+			.word RD
+			.word RI + NI + VI @
+            .word RI        
+			.word AP
+			.word RI + NI + VI
+			.word RI + NI
+			.word RI   
+			.word AP
+			.word RI
+			.word RI + RD + NI + ND + VI + VD @
+			.word VI + VD         
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word NI + ND + VI + VD
+			.word VI + VD
+			.word AP
+			.word NI + ND + VI + VD
+			.word RI + RD + NI + ND + VI + VD @
+            .word VI + VD         
+			.word AP
+			.word RD + NI + ND + VI + VD
+			.word NI + ND + VI + VD
+            .word VI + VD
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND @ FIN CUARTA LINEA 
+            .word RI + RD      
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND
+            .word RI + RD     
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND @  
+            .word RI + RD     
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND  
+            .word RI + RD    
+			.word AP
+			.word RI + RD + NI + ND
+			.word RI + RD + NI			@  
+			.word RI + RD + NI + ND + VI 
+			.word RI + RD + NI + ND + VI + VD
+            .word RI + RD + NI + ND + VI
+			.word RI + RD + NI + ND @
+			.word RI + RD
+			.word RI + RD			
+			.word RI + RD + NI + ND + VI + VD 
+			.word RI + RD + NI + ND  @ FIN TERCERA LINEA
+			.word RI + RD             
+			.word AP
+            .word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND
+			.word RI + RD  
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND @
+            .word RI + RD            
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND
+			.word RI + RD  
+			.word AP
+			.word RI + RD + NI
+			.word RI + RD + NI + ND		@
+            .word RI + RD             
+			.word RI
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND  
+			.word RI + RD
+			.word RI                            @
+            .word RI + RD + NI + ND + VI + VD
+			.word AP                            @ FIN SEGUNDA LINEA
+			.word RI + RD + NI + ND + VI + VD  
+			.word RI + RD + NI + ND
+			.word RI + RD
+			.word AP  
+			.word RI + RD + NI + ND + VI + VD  
+			.word RI + RD + NI + ND           @
+			.word RI + RD
+			.word AP
+			.word RI + RD + NI + ND + VI + VD  
+			.word RI + RD + NI + ND
+			.word RI + RD
+			.word AP
+            .word RI                        
+			.word RI + RD                     @      
+			.word RI + RD + NI + ND
+			.word RI  
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD
+            .word RI + RD + NI + ND
+			.word RI + RD + NI                    @
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND @ FIN PRIMERA LINEA     
+			.word RI + RD
+			.word AP
+			.word RI + RD + NI + ND + VI + VD
+            .word RI + RD + NI + ND     
+			.word RI + RD
+			.word AP
+			.word RI + RD + NI + ND + VI + VD    
+            .word RI + RD + NI + ND @     
+			.word RI + RD
+			.word AP
+			.word RI + RD + NI + ND + VI + VD   
+            .word RI + RD + NI + ND     
+			.word RI + RD
+			.word AP
+			.word RI   
+			.word RI + RD + NI + ND 	@
+			.word RI + RD
+            .word AP
+			.word RI + RD + NI + ND + VI + VD
+			.word RI + RD + NI + ND
+			.word RI + RD
+			.word RI + RD + NI + ND + VI + VD @
+			.word RI + RD + NI
